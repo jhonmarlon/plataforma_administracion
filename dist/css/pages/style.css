@@ -1,0 +1,16 @@
+#page {
+    display: none;
+}
+#loading {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+      margin: 0px;
+    background: black;
+
+    background-image: url("https://cdn.dribbble.com/users/105033/screenshots/1132714/loading-animation-800.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+}

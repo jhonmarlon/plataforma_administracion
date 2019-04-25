@@ -1,0 +1,158 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:900,300,700,300italic,400);
+
+
+
+#box {
+    width: 278px;
+    height: 200px;
+    padding: 30px;
+    background-color: rgba(221, 224, 228, 0.44);
+    color: white;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    /* box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.59); */
+}
+
+
+#box1 {
+    
+    width: 278px;
+    height: 200px;
+    padding: 30px;
+    background-color: rgba(221, 224, 228, 0.44);
+    color: white;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    /* box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.59); */
+}
+#box2 {
+    width: 278px;
+    height: 200px;
+    padding: 30px;
+    background-color: rgba(221, 224, 228, 0.44);
+    color: white;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    /* box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.59); */
+}
+
+
+
+h2 {
+    text-align: center;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 23px;
+    color: #2f4e6f;
+}
+
+
+#naziv {
+    margin-left: 30px;
+    margin-top: -112px;
+    font-size: 18px;
+}
+#naziv1 {
+    margin-left: 30px;
+    margin-top: -112px;
+    font-size: 18px;
+}
+#naziv2 {
+    margin-left: 30px;
+    margin-top: -112px;
+    font-size: 18px;
+}
+
+
+
+
+
+h1 {
+  text-align:center;
+  text-transform:uppercase;
+  font-weight: 500;
+  font-size: 43px;
+  letter-spacing: 7px;
+}
+
+#counter {
+    font-size: 45px;
+    width: 263px;
+    font-family: roboto, sans-serif;
+    font-weight: 300;
+    margin: 0 auto 14px auto;
+}
+
+.block {
+    display: inline-block;
+    width: 59px;
+    height: 60px;
+    background-color: rgb(47, 78, 111);
+    text-align: center;
+    padding-top: 23px;
+}
+
+
+#counter1 {
+    font-size: 45px;
+    width: 263px;
+    font-family: roboto, sans-serif;
+    font-weight: 300;
+    margin: 0 auto 14px auto;
+}
+
+.block1 
+  {
+    display: inline-block;
+    width: 59px;
+    height: 60px;
+    background-color: rgb(47, 78, 111);
+    text-align: center;
+    padding-top: 23px;
+}
+
+
+
+#counter2 {
+    font-size: 45px;
+    width: 263px;
+    font-family: roboto, sans-serif;
+    font-weight: 300;
+    margin: 0 auto 14px auto;
+}
+
+.block2 
+ {
+    display: inline-block;
+    width: 59px;
+    height: 60px;
+    background-color: rgb(47, 78, 111);
+    text-align: center;
+    padding-top: 23px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#seconds {
+  color: #F44336;
+}
+
+@-webkit-keyframes bg-animation {
+	0% {
+		background-position: 0 0;
+	}
+	100% { 
+		background-position: 0 -350px;
+	}
+}
+

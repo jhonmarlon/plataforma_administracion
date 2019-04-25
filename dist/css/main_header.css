@@ -1,0 +1,40 @@
+.skin-blue .main-header .logo {
+    /* background-color: #367fa9;*/
+    background: -webkit-linear-gradient(top, #333333 0%,#0B0B0B 100%);
+    color: #fff;
+    border-bottom: 0 solid transparent;
+}
+#logoarusheader{
+    width: 100px;
+
+}
+
+
+.main-header .navbar {
+    -webkit-transition: margin-left .3s ease-in-out;
+    -o-transition: margin-left .3s ease-in-out;
+    transition: margin-left .3s ease-in-out;
+    margin-bottom: 0;
+    margin-left: 230px;
+    border: none;
+    min-height: 50px;
+    white-space: nowrap;
+    background: -webkit-linear-gradient(top, #333333 0%,#0B0B0B 100%);
+    border-radius: 0;
+}
+
+
+.navbar-nav>.user-menu>.dropdown-menu>li.user-header {
+    height: 175px;
+    padding: 10px;
+    text-align: center;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #008FD6) );
+}
+.navbar-nav>.user-menu>.dropdown-menu>.user-footer {
+    /* background-color: #f9f9f9; */
+    padding: 10px;
+    background: linear-gradient(to right, #FFF8F8 0%, #d1d0e6b8 0%, #FFFFFF 100%);
+    border-color: black;
+    box-shadow: inset rgba(255,254,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */ hsl(0, 0%, 60%) 0 .1em 3px, hsl(0, 0%, 45%) 0 .3em 1px, /* color border */ rgba(0,0,0,0.2) 0 .5em 5px;
+    border: 26px1;
+}

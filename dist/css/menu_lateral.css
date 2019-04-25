@@ -1,0 +1,81 @@
+   
+.skin-blue .sidebar-menu>li.header {
+		white-space: nowrap;
+		overflow: hidden;
+		background: -webkit-linear-gradient(top, #333333 0%,#0B0B0B 100%);
+		background: -o-linear-gradient(top, #333333 0%,#0B0B0B 100%);
+		background: -ms-linear-gradient(top, #333333 0%,#0B0B0B 100%);
+		/* color: #4b646f; */
+		/* background: -webkit-linear-gradient(top, #333333 0%,#0B0B0B 100%); */
+		background: -o-linear-gradient(top, #333333 0%,#0B0B0B 100%);
+		background: -ms-linear-gradient(top, #333333 0%,#0B0B0B 100%);
+		color: white;
+		/* background: #1a2226; */
+}
+
+
+
+.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side {
+		background-color: #202021;
+		font-style: italic;
+}
+
+.bg-light-blue, .label-primary, .modal-primary .modal-body {
+		background-color: #184ca7 !important;
+}
+
+.sidebar-menu .treeview-menu>li>a {
+		padding: 5px 5px 5px 15px;
+		display: block;
+		font-size: 14px;
+		background-color: black;
+}
+
+.sidebar-menu .treeview-menu>li>a {
+		padding: 5px 5px 5px 15px;
+		display: block;
+		font-size: 14px;
+		background-color: #363c42;
+		color: snow;
+}
+
+.user-panel {
+		position: relative;
+		width: 100%;
+		    padding: 0px;
+		overflow: hidden;
+		white-space: nowrap;
+		overflow: hidden;
+		    background: -webkit-linear-gradient(top, #333333 0%,#0B0B0B 100%);
+}
+
+.user-panel>.image>img {
+		width: 100%;
+		max-width: 172px;
+		height: auto;
+}
+
+
+
+
+.skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a {
+		color: #fff;
+		font-style: italic;
+		font-size: 14px;
+		font-style: italic;
+		font-size: 14px;
+		/* font-family: -webkit-pictograph; */
+		background: #000000;
+		border-left-color: #ffffff;
+		white-space: nowrap;
+		overflow: hidden;
+		/* background: -webkit-linear-gradient(top, #332cd8 0%,#191727 100%); */
+		background: -webkit-linear-gradient(top, #333333 0%,#0B0B0B 100%);
+		background: -o-linear-gradient(top, #333333 0%,#0B0B0B 100%);
+		background: -ms-linear-gradient(top, #333333 0%,#0B0B0B 100%);
+}
+
+
+.skin-blue .sidebar a {
+		color: #ffffff;
+}

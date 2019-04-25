@@ -1,0 +1,606 @@
+
+p
+{
+position:relative;
+color: #fff;
+font-size: 14px;
+text-align:center;
+text-transform:uppercase;  
+font-weight:bold;
+font-family:"Arial",Verdana,Sans-serif;
+}
+h3
+{
+position:relative;
+color: #000;
+font-size: 14px;
+text-align:center;
+text-transform:uppercase;  
+font-weight:bold;
+font-family:"Arial",Verdana,Sans-serif;
+}	
+a{text-decoration:none;}
+.cotainer {
+width: 100%;
+height: 100%;
+display: block;
+background-color:#fff;
+position:relative;
+text-align:center;
+}
+/*=================================BUTTONS========================*/
+/*Blue Buttons*/
+.buttonBlue
+{
+width: 158px;
+height: 45px;
+display: block;
+top:0px;
+left:0px;
+position:relative;
+/*---Rounded Corners---*/
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+border:1px solid #000;
+/*Gradient*/
+background: #26aaef; /* for non-css3 browsers */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#26aaef', endColorstr='#023b97'); /* for IE */
+background: -webkit-gradient(linear, right top, left bottom, from(#26aaef), to(#023b97)); /* for webkit browsers */
+background: -moz-linear-gradient(top,  #26aaef,  #023b97); /* for firefox 3.6+ */
+/*Shadow*/
+-moz-box-shadow: 0px 1px 5px #000;
+-webkit-box-shadow: 0px -1px 5px #000;
+box-shadow: 0px -1px 5px #000;
+
+}
+.DarkPartBlue
+{
+/*position*/
+float:right;
+top:0px;
+left:0px;
+position:relative;
+/*size*/
+width: 35px;
+height: 45px;
+display: block;
+/*---Rounded Corners---*/
+/*Opera*/
+border-top-right-radius:5px;
+border-bottom-right-radius:5px;
+/*Mozilla*/
+-moz-border-radius-topright:5px;
+-moz-border-radius-bottomright:5px;
+/*WebKit equivalent*/
+webkit-border-top-right-radius:5px;
+webkit-border-bottom-right-radius:5px;
+/*Gradient*/
+background: #3378c0; /* for non-css3 browsers */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3378c0', endColorstr='#002156'); /* for IE */
+background: -webkit-gradient(linear, right top, left bottom, from(#3378c0), to(#002156)); /* for webkit browsers */
+background: -moz-linear-gradient(top,  #3378c0,  #002156); /* for firefox 3.6+ */
+}
+.light
+{
+bottom:46px;
+position:relative;
+/*size*/
+width: 158px;
+height: 15px;
+display: block;
+background: #fff;
+/*Transparency*/
+ filter:alpha(opacity=15);
+        -moz-opacity:0.15;
+        -khtml-opacity: 0.15;
+        opacity: 0.15;
+/*---Rounded Corners---*/
+/*Opera*/
+border-top-right-radius:5px;
+border-top-left-radius:5px;
+/*Mozilla*/
+-moz-border-radius-topright:5px;
+-moz-border-radius-topleft:5px;
+/*WebKit equivalent*/
+webkit-border-top-right-radius:5px;
+webkit-border-top-left-radius:5px;
+}
+.arrowLine
+{
+float:right;
+top:16px;
+right:13px;
+position:relative;
+/*size*/
+width: 6px;
+height: 10px;
+display: block;
+background: #fff;
+/*Shadow*/
+-moz-box-shadow: 0px -1px 2px grey;
+-webkit-box-shadow: 0px -1px 2px grey;
+box-shadow: 0px -1px 2px grey;
+}
+.arrowTriangle
+{
+float:right;
+right:3px;
+top:26px;
+position:relative;
+/*triangle*/
+border-color: white transparent transparent  transparent;
+border-style: solid;
+border-width: 7px 7px 7px 7px;
+height: 0px;
+width: 0px;
+}
+/*=================Arrow Triangle Shadow=============*/
+.arrowTriangleBlackShadow
+{
+right:9px;
+top:27px;
+position:absolute;
+/*triangle*/
+border-color: #000 transparent transparent  transparent;
+border-style: solid;
+border-width: 7px 7px 7px 7px;
+height: 0px;
+width: 0px;
+}
+.arrowTriangleShadow
+{
+right:9px;
+top:27px;
+position:absolute;
+/*triangle*/
+border-color: #7f7f7f transparent transparent  transparent;
+border-style: solid;
+border-width: 7px 7px 7px 7px;
+height: 0px;
+width: 0px;
+}
+/*===============================White Button==================================*/
+.buttonWhite
+{
+top:0px;
+left:0px;
+position:relative;
+width: 158px;
+height: 45px;
+display: block;
+/*---Rounded Corners---*/
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+border:1px solid #aaa;
+/*Gradient*/
+background: #fff; /* for non-css3 browsers */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#cbcbcb'); /* for IE */
+background: -webkit-gradient(linear, right top, left bottom, from(#fff), to(#cbcbcb)); /* for webkit browsers */
+background: -moz-linear-gradient(top,  #fff,  #cbcbcb); /* for firefox 3.6+ */
+/*Shadow*/
+-moz-box-shadow: 0px 1px 5px #000;
+-webkit-box-shadow: 0px -1px 5px #000;
+box-shadow: 0px -1px 5px #000;
+}
+.DarkPartWhite
+{
+/*position*/
+float:right;
+top:0px;
+left:0px;
+position:relative;
+/*size*/
+width: 35px;
+height: 45px;
+display: block;
+/*---Rounded Corners---*/
+border-top-right-radius:5px;
+-moz-border-radius-topright:5px;
+webkit-border-top-right-radius:5px;
+/*Gradient*/
+background: #8b8c8d; /* for non-css3 browsers */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e2e2e2', endColorstr='#8b8c8d'); /* for IE */
+background: -webkit-gradient(linear, right top, left bottom, from(#e2e2e2), to(#8b8c8d)); /* for webkit browsers */
+background: -moz-linear-gradient(top,  #e2e2e2,  #8b8c8d); /* for firefox 3.6+ */
+}
+/*===============================Orange Button==================================*/
+.buttonOrange
+{
+width: 158px;
+height: 45px;
+display: block;
+/*---Rounded Corners---*/
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+border:1px solid #9f3e03;
+/*Gradient*/
+background: #c05704; /* for non-css3 browsers */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcb156', endColorstr='#c05704'); /* for IE */
+background: -webkit-gradient(linear, right top, left bottom, from(#fcb156), to(#c05704)); /* for webkit browsers */
+background: -moz-linear-gradient(top,  #fcb156,  #c05704); /* for firefox 3.6+ */
+/*Shadow*/
+-moz-box-shadow: 0px 1px 5px #000;
+-webkit-box-shadow: 0px -1px 5px #000;
+box-shadow: 0px -1px 5px #000;
+}
+.DarkPartOrange
+{
+/*position*/
+float:right;
+top:0px;
+left:0px;
+position:relative;
+/*size*/
+width: 35px;
+height: 45px;
+display: block;
+/*---Rounded Corners---*/
+border-top-right-radius:5px;
+-moz-border-radius-topright:5px;
+webkit-border-top-right-radius:5px;
+/*Gradient*/
+background: #9f3804; /* for non-css3 browsers */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e68c44', endColorstr='#9f3804'); /* for IE */
+background: -webkit-gradient(linear, right top, left bottom, from(#e68c44), to(#9f3804)); /* for webkit browsers */
+background: -moz-linear-gradient(top,  #e68c44,  #9f3804); /* for firefox 3.6+ */
+}
+/*===============================Orange Button==================================*/
+.buttonBlack
+{
+width: 158px;
+height: 45px;
+display: block;
+/*---Rounded Corners---*/
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+border:1px solid #000;
+/*Gradient*/
+background: #c05704; /* for non-css3 browsers */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#66696d', endColorstr='#000'); /* for IE */
+background: -webkit-gradient(linear, right top, left bottom, from(#66696d), to(#000)); /* for webkit browsers */
+background: -moz-linear-gradient(top,  #66696d,  #000); /* for firefox 3.6+ */
+/*Shadow*/
+-moz-box-shadow: 0px 1px 5px #000;
+-webkit-box-shadow: 0px 1px 5px #000;
+box-shadow: 0px 1px 5px #000;
+}
+.DarkPartBlack
+{
+/*position*/
+float:right;
+top:0px;
+left:0px;
+position:relative;
+/*size*/
+width: 35px;
+height: 45px;
+display: block;
+/*---Rounded Corners---*/
+border-top-right-radius:5px;
+-moz-border-radius-topright:5px;
+webkit-border-top-right-radius:5px;
+/*Gradient*/
+background: #26282a; /* for non-css3 browsers */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#868788', endColorstr='#26282a'); /* for IE */
+background: -webkit-gradient(linear, right top, left bottom, from(#868788), to(#26282a)); /* for webkit browsers */
+background: -moz-linear-gradient(top,  #868788,  #26282a); /* for firefox 3.6+ */
+}
+/*=============================CANCEL SIGN==========================*/
+/*================Blue Sign============*/
+.cross1Blue
+{
+float:left;
+left:17px;
+top:16px;
+position:absolute;
+display:block;
+width:4px;
+height:17px;
+background-color:#fff;
+/*rotate block*/
+-moz-transform:  rotate(-45deg); 
+-webkit-transform:rotate (-45deg);
+/*Gradient*/
+background: #fff; /* for non-css3 browsers */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#acddf8'); /* for IE */
+background: -webkit-gradient(linear, right top, left bottom, from(#fff), to(#acddf8)); /* for webkit browsers */
+background: -moz-linear-gradient(top,  #fff,  #acddf8); /* for firefox 3.6+ */
+}
+.cross2Blue
+{float:left;
+left:17px;
+top:16px;
+position:absolute;
+display:block;
+width:4px;
+height:17px;
+background-color:#fff;
+/*rotate block*/
+-moz-transform:  rotate(45deg); 
+-webkit-transform:rotate (45deg);
+/*Gradient*/
+background: #fff; /* for non-css3 browsers */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#acddf8'); /* for IE */
+background: -webkit-gradient(linear, right top, left bottom, from(#fff), to(#acddf8)); /* for webkit browsers */
+background: -moz-linear-gradient(top,  #fff,  #acddf8); /* for firefox 3.6+ */
+}
+/*================Black Sign============*/
+.cross1Black
+{
+float:left;
+left:17px;
+top:16px;
+position:absolute;
+display:block;
+width:4px;
+height:17px;
+background-color:#fff;
+/*rotate block*/
+-moz-transform:  rotate(-45deg); 
+-webkit-transform:rotate (-45deg);
+/*Gradient*/
+background: #fff; /* for non-css3 browsers */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#a1a1a1'); /* for IE */
+background: -webkit-gradient(linear, right top, left bottom, from(#fff), to(#a1a1a1)); /* for webkit browsers */
+background: -moz-linear-gradient(top,  #fff,  #a1a1a1); /* for firefox 3.6+ */
+}
+.cross2Black
+{float:left;
+left:17px;
+top:16px;
+position:absolute;
+display:block;
+width:4px;
+height:17px;
+background-color:#fff;
+/*rotate block*/
+-moz-transform:  rotate(45deg); 
+-webkit-transform:rotate (45deg);
+/*Gradient*/
+background: #fff; /* for non-css3 browsers */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#a1a1a1'); /* for IE */
+background: -webkit-gradient(linear, right top, left bottom, from(#fff), to(#a1a1a1)); /* for webkit browsers */
+background: -moz-linear-gradient(top,  #fff,  #a1a1a1); /* for firefox 3.6+ */
+}
+/*================For White Buttons============*/
+.cross1White
+{
+float:left;
+left:17px;
+top:16px;
+position:absolute;
+display:block;
+width:4px;
+height:17px;
+background-color:#fff;
+/*rotate block*/
+-moz-transform:  rotate(-45deg); 
+-webkit-transform:rotate (-45deg);
+transform: rotate(-45deg);
+filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=-45);
+}
+.cross2White
+{float:left;
+left:17px;
+top:16px;
+position:absolute;
+display:block;
+width:4px;
+height:17px;
+background-color:#fff;
+/*rotate block*/
+-moz-transform:  rotate(45deg); 
+-webkit-transform:rotate (45deg);
+transform: rotate(45deg);
+filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=45);
+}
+/*================For Orange Buttons============*/
+.cross1Orange
+{
+float:left;
+left:17px;
+top:16px;
+position:absolute;
+display:block;
+width:4px;
+height:17px;
+background-color:#fff;
+/*rotate block*/
+-moz-transform:  rotate(-45deg); 
+-webkit-transform:rotate (-45deg);
+transform: rotate(-45deg);
+filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=-45); 
+/*Gradient*/
+background: #fff; /* for non-css3 browsers */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#df813b'); /* for IE */
+background: -webkit-gradient(linear, right top, left bottom, from(#fff), to(#df813b)); /* for webkit browsers */
+background: -moz-linear-gradient(top,  #fff,  #df813b); /* for firefox 3.6+ */
+}
+.cross2Orange
+{float:left;
+left:17px;
+top:16px;
+position:absolute;
+display:block;
+width:4px;
+height:17px;
+background-color:#fff;
+/*rotate block*/
+-moz-transform:  rotate(45deg); 
+-webkit-transform:rotate (45deg);
+transform: rotate(45deg);
+filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=45);
+/*Gradient*/
+background: #fff; /* for non-css3 browsers */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#df813b'); /* for IE */
+background: -webkit-gradient(linear, right top, left bottom, from(#fff), to(#df813b)); /* for webkit browsers */
+background: -moz-linear-gradient(top,  #fff,  #df813b); /* for firefox 3.6+ */
+}
+/*=================================SEARCH Sign=================================*/
+/*==========Loupe White for all search signes==============*/
+.loupeWhite
+{
+position:absolute;
+float:right;
+top:10px;
+right:13px;
+display: block;
+width: 10px;
+height: 10px;
+background-color:transparent;
+-moz-border-radius: 9px;
+-webkit-border-radius: 9px;
+border-radius: 9px;
+border:3px solid white;
+/*Shadow*/
+-moz-box-shadow: 0px 1px 3px #000, inset 0px 1px 3px #000;
+-webkit-box-shadow: 0px 1px 3px #000, inset 0px 1px 3px #000;
+box-shadow: 0px 1px 3px #000, inset 0px 1px 3px #000;
+}
+/*==========Loupe Handle Black===========*/
+.loupeHandleBlack
+{
+position:absolute;
+float:right;
+top:21px;
+right:9px;
+display: block;
+width: 4px;
+height: 12px;
+background-color: #fff;
+/*---Rounded Corners---*/
+/*Opera*/
+border-bottom-right-radius:2px;
+border-bottom-left-radius:2px;
+/*Mozilla*/
+-moz-border-radius-bottomright:2px;
+-moz-border-radius-bottomleft:2px;
+/*WebKit equivalent*/
+webkit-border-bottom-left-radius:2px;
+webkit-border-bottom-right-radius:2px;
+background-color:#fff;
+/*rotate block*/
+-moz-transform:  rotate(-45deg); 
+-webkit-transform:rotate (-45deg);
+transform: rotate(-45deg);
+filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=-45);
+/*Shadow*/
+-moz-box-shadow: 0px 1px 3px #000;
+-webkit-box-shadow: 0px 1px 3px #000;
+box-shadow: 0px 1px 3px #000;
+/*Gradient*/
+background: #fff; /* for non-css3 browsers */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#8a8a8a'); /* for IE */
+background: -webkit-gradient(linear, right top, left bottom, from(#fff), to(#8a8a8a)); /* for webkit browsers */
+background: -moz-linear-gradient(top,  #fff,  #8a8a8a); /* for firefox 3.6+ */
+}
+/*==========Loupe Handle Orange===========*/
+.loupeHandleOrange
+{
+position:absolute;
+float:right;
+top:21px;
+right:9px;
+display: block;
+width: 4px;
+height: 12px;
+background-color: #fff;
+/*---Rounded Corners---*/
+/*Opera*/
+border-bottom-right-radius:2px;
+border-bottom-left-radius:2px;
+/*Mozilla*/
+-moz-border-radius-bottomright:2px;
+-moz-border-radius-bottomleft:2px;
+/*WebKit equivalent*/
+webkit-border-bottom-left-radius:2px;
+webkit-border-bottom-right-radius:2px;
+background-color:#fff;
+/*rotate block*/
+-moz-transform:  rotate(-45deg); 
+-webkit-transform:rotate (-45deg);
+transform: rotate(-45deg);
+filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=-45);
+/*Shadow*/
+-moz-box-shadow: 0px 1px 3px #000;
+-webkit-box-shadow: 0px 1px 3px #000;
+box-shadow: 0px 1px 3px #000;
+/*Gradient*/
+background: #fff; /* for non-css3 browsers */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#de833f'); /* for IE */
+background: -webkit-gradient(linear, right top, left bottom, from(#fff), to(#de833f)); /* for webkit browsers */
+background: -moz-linear-gradient(top,  #fff,  #de833f); /* for firefox 3.6+ */
+}
+/*==========Loupe Handle Blue===========*/
+.loupeHandleBlue
+{
+position:absolute;
+float:right;
+top:21px;
+right:9px;
+display: block;
+width: 4px;
+height: 12px;
+background-color: #fff;
+/*---Rounded Corners---*/
+/*Opera*/
+border-bottom-right-radius:2px;
+border-bottom-left-radius:2px;
+/*Mozilla*/
+-moz-border-radius-bottomright:2px;
+-moz-border-radius-bottomleft:2px;
+/*WebKit equivalent*/
+webkit-border-bottom-left-radius:2px;
+webkit-border-bottom-right-radius:2px;
+background-color:#fff;
+/*rotate block*/
+-moz-transform:  rotate(-45deg); 
+-webkit-transform:rotate (-45deg);
+transform: rotate(-45deg);
+filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=-45);
+/*Shadow*/
+-moz-box-shadow: 0px 1px 3px #000;
+-webkit-box-shadow: 0px 1px 3px #000;
+box-shadow: 0px 1px 3px #000;
+/*Gradient*/
+background: #fff; /* for non-css3 browsers */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#90bbd6'); /* for IE */
+background: -webkit-gradient(linear, right top, left bottom, from(#fff), to(#d90bbd6)); /* for webkit browsers */
+background: -moz-linear-gradient(top,  #fff,  #90bbd6); /* for firefox 3.6+ */
+}
+/*===========Loupe Handle White===========*/
+.loupeHandle
+{
+position:absolute;
+float:right;
+top:21px;
+right:9px;
+display: block;
+width: 4px;
+height: 12px;
+background-color: #fff;
+/*---Rounded Corners---*/
+/*Opera*/
+border-bottom-right-radius:2px;
+border-bottom-left-radius:2px;
+/*Mozilla*/
+-moz-border-radius-bottomright:2px;
+-moz-border-radius-bottomleft:2px;
+/*WebKit equivalent*/
+webkit-border-bottom-left-radius:2px;
+webkit-border-bottom-right-radius:2px;
+background-color:#fff;
+/*rotate block*/
+-moz-transform:  rotate(-45deg); 
+-webkit-transform:rotate (-45deg);
+transform: rotate(-45deg);
+filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=-45);
+/*Shadow*/
+-moz-box-shadow: 0px 1px 3px #000;
+-webkit-box-shadow: 0px 1px 3px #000;
+box-shadow: 0px 1px 3px #000;
+}
