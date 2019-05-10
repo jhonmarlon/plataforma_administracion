@@ -5,12 +5,16 @@
         <group>
             <file>file:/C:/xampp/htdocs/plataforma_administrativa/pages/components/asignar_cuenta_solicitud_operacion.php</file>
             <file>file:/C:/xampp/htdocs/plataforma_administrativa/pages/components/crear_nuevo_producto.php</file>
-            <file>file:/C:/xampp/htdocs/plataforma_administrativa/pages/components/crear_nuevo_vendedor.php</file>
-            <file>file:/C:/xampp/htdocs/plataforma_administrativa/modelo/conexion.php</file>
-            <file>file:/C:/xampp/htdocs/plataforma_administrativa/pages/components/aprobar_solicitudes_operacion.php</file>
+            <file>file:/C:/xampp/htdocs/plataforma_administrativa/login.php</file>
             <file>file:/C:/xampp/htdocs/plataforma_administrativa/modelo/ajax_generales.php</file>
             <file>file:/C:/xampp/htdocs/plataforma_administrativa/pages/components/metricas_gerente.php</file>
+            <file>file:/C:/xampp/htdocs/plataforma_administrativa/pages/components/crear_perfil_tarifa.php</file>
+            <file>file:/C:/xampp/htdocs/plataforma_administrativa/pages/components/crear_nuevo_vendedor.php</file>
+            <file>file:/C:/xampp/htdocs/plataforma_administrativa/modelo/conexion.php</file>
+            <file>file:/C:/xampp/htdocs/plataforma_administrativa/index.php</file>
+            <file>file:/C:/xampp/htdocs/plataforma_administrativa/pages/components/aprobar_solicitudes_operacion.php</file>
             <file>file:/C:/xampp/htdocs/plataforma_administrativa/pages/components/nuevo_producto.php</file>
+            <file>file:/C:/xampp/htdocs/plataforma_administrativa/pages/components/asignar_perfil_tarifa.php</file>
             <file>file:/C:/xampp/htdocs/plataforma_administrativa/pages/components/aprobar_solicitudes_vendedor.php</file>
         </group>
     </open-files>

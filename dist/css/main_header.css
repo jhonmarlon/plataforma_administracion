@@ -25,10 +25,9 @@
 
 
 .navbar-nav>.user-menu>.dropdown-menu>li.user-header {
-    height: 175px;
+    height: 183px;
     padding: 10px;
     text-align: center;
-    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #008FD6) );
 }
 .navbar-nav>.user-menu>.dropdown-menu>.user-footer {
     /* background-color: #f9f9f9; */

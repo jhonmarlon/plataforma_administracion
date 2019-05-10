@@ -1,11 +1,12 @@
 <?php
 //include 'pages/tablero/body_pages.php';
 $conn = new conexion();
-//tomamos los servicios creados
-$servicios = $conn->getServicios();
-
 $id_usuario = $userinfo->id_usuario;
 $id_empresa = $userinfo->id_empresa;
+//tomamos los servicios creados
+$servicios = $conn->getServicios($id_usuario);
+
+
 
 $clientes = $conn->getUsuarios("cliente", $id_empresa, "0");
 $distribuidores = $conn->getUsuarios("usuario", $id_empresa, "3");
@@ -54,10 +55,10 @@ $perfiles_tarifa = $conn->getPerfilTarifaEmpresa($id_usuario, $id_empresa);
                                             <td><label id="nombre_servicio<?php echo $cont ?>"><?php echo $perfiles_tarifa_activos["nombre"] ?></label></td>
                                             <td><label id="nombre_servicio<?php echo $cont ?>"><?php echo $conn->decryption($perfiles_tarifa_activos["codigo"]) ?></label></td>
                                             <td><button  id="detalle_tarifa" title="Ver Detalles" type="submit" class="btn btn-default" 
-                                                         onclick="detalle_tarifa('<?php echo $perfiles_tarifa_activos["id"] ?>', '<?php echo $perfiles_tarifa_activos["nombre"] ?>')"><img src="dist/img/refresh-icon.png" /></button></td>
+                                                         onclick="detalle_tarifa('<?php echo $perfiles_tarifa_activos["id"] ?>', '<?php echo $perfiles_tarifa_activos["nombre"] ?>')">Detalles</button></td>
 
                                             <td><button onclick="asigna_perfil_tarifa('<?php echo $perfiles_tarifa_activos["id"] ?>', '<?php echo $perfiles_tarifa_activos["nombre"] ?>', '<?php echo $id_empresa ?>')" id="editar_servicio" title='Editar Servicio' type="submit" class="btn btn-default" 
-                                                        data-target="" data-toggle="modal"><img src="dist/img/refresh-icon.png" /></button></td>
+                                                        data-target="" data-toggle="modal">Asignar</button></td>
                                         </tr>
                                         <?php
                                         $cont++;

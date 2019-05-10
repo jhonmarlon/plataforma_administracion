@@ -37,17 +37,21 @@ if (isset($_POST["tipo"])) {
             $subcategorias = $conn->getSubCategorias($id_categoria);
 
             if (mysqli_num_rows($subcategorias) == 0) {
-
-                //mostramos boton
-                echo "Sin subcategorias";
+                return false;
                 ?>
-                <?php
+            <?php } else if (isset($_POST["tipo_select"])) {
+                ?>
+                <option selected disabled>Seleccione una subcategoría</option>
+                <?php while ($subCat = $subcategorias->fetch_assoc()) {
+                    ?>
+                    <option class="select_subcategoria_mdl" id="subCategoria_<?php echo $subCat["id"] ?>"><?php echo $subCat["nombre"] ?></option>
+                    <?php
+                }
             } else {
+                $aux;
                 while ($subCat = $subcategorias->fetch_assoc()) {
                     ?>
-
-
-                    <li><a href="#" class="sub_categoria_producto" id="<?php echo $subCat["id"] ?>"><?php echo $subCat["nombre"] ?></a></li>
+                    <li class="filtros" id="subCategoria_<?php echo $subCat["id"] ?>"><a href="#" class="sub_categoria_producto" id="<?php echo $subCat["id"] ?>"><?php echo $subCat["nombre"] ?></a></li>
 
                     <?php
                 }
@@ -59,11 +63,9 @@ if (isset($_POST["tipo"])) {
             $id_subcategoria = $_POST["id_subcategoria"];
             //tomamos los elementos relacionados a la subcategoria
             $elementos = $conn->getElementoSubCategoria($id_subcategoria);
-            
-            if (mysqli_num_rows($elementos) == 0) {
 
-                //mostramos boton
-                echo "Sin Elementos";
+            if (mysqli_num_rows($elementos) == 0) {
+                return false;
                 ?>
                 <?php
             } else {
@@ -71,12 +73,29 @@ if (isset($_POST["tipo"])) {
                     ?>
 
 
-                    <li><a href="#" class="elemento_sub_categoria" id="<?php echo $ele["id"] ?>"><?php echo $ele["nombre"] ?></a></li>
+                    <li class="filtros" id="elemento_<?php echo $ele["id"] ?>"><a href="#" class="elemento_sub_categoria" id="<?php echo $ele["id"] ?>"><?php echo $ele["nombre"] ?></a></li>
 
                     <?php
                 }
             }
         }
+
+        if (isset($_POST["array_filtros"])) {
+            //enviamos elemento a la tabla temporal
+        }
+    }
+}
+
+if (isset($_POST["tipo_creado"])) {
+    if ($_POST["tipo_creado"] == "subcategoria") {
+
+        $id_categoria = $_POST["id_categoria"];
+        $nombre_subcategoria = $_POST["nombre_subcategoria"];
+        $descripcion = $_POST["descripcion"];
+
+        //guardamos la nueva subcategoria en la bd
+        $conn->ejecutar_consulta_simple("INSERT INTO sub_categorias_producto (nombre, descripcion,id_categoria,estado) VALUES "
+                . "('$nombre_subcategoria','$descripcion','$id_categoria','A')");
     }
 }
 ?>

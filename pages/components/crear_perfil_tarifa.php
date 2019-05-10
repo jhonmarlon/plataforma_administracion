@@ -1,10 +1,12 @@
 <?php
 $conn = new conexion();
-//tomamos los servicios creados
-$servicios = $conn->getServicios();
 
 $id_usuario = $userinfo->id_usuario;
 $id_empresa = $userinfo->id_empresa;
+//tomamos los servicios creados
+$servicios = $conn->getServicios($id_usuario);
+
+
 
 //validamos si el cliente tiene en temporal algun perfil
 $perfil_temporal = $conn->getPerfilTarifaTemporal($id_usuario, 'lista');
@@ -149,7 +151,7 @@ $nombre_tarifa = "";
                                         <td><label id="nombre_servicio<?php echo $perfil_tarifa_temp["id"] ?>"><?php echo $perfil_tarifa_temp["nombre"] ?></label></td>
                                         <td><label id="tarifa<?php echo $perfil_tarifa_temp["id"] ?>"><?php echo "$" . $perfil_tarifa_temp["tarifa"] ?></label></td>
                                         <td><button onclick="toma_datos_editar('<?php echo $perfil_tarifa_temp["id"] ?>')" id="editar_servicio" title='Editar Servicio' type="submit" class="btn btn-default" 
-                                                    data-target="#modal_editar_servicio_temp" data-toggle="modal"><img src="dist/img/refresh-icon.png" /></button></td>
+                                                    data-target="#modal_editar_servicio_temp" data-toggle="modal">Editar</button></td>
 
                                                   
 
